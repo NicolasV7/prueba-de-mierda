@@ -66,4 +66,4 @@ eureka:
       default-zone: http://eureka-service:8761/eureka
 
   instance:
-    hostname: localhost
+    hostname: eureka-service
