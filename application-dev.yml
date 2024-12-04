@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${RDS_HOSTNAME:localhost}:${RDS_PORT:5432}/MotulRappiDB
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:postgres}
+
+# logging:
+#   level:
+#     root: DEBUG
